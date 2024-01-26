@@ -1,0 +1,16 @@
+plugins:
+  - jekyll-relative-links
+  - jekyll-mathjax
+
+mathjax:
+  enable: true
+  use_preview: true
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+theme: jekyll-theme-cayman
+authors:
+  - name: medislamm123
+
