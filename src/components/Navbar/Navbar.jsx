@@ -10,7 +10,7 @@ export const Navbar = () => {
             <nav className={styles.navbar}>
                 <a className={styles.title} href="/">mekadmini</a>
                 <div className={styles.menu}>
-                    <img className={styles.MenuBtn} src={menuOpen ? getImageUrl("nav/menuIcon.png") : getImageUrl("nav/menuIcon.png")} alt="menu-dash-button" width="40" onClick={() => setMenuOpen(!menuOpen)}></img>
+                    <img className={styles.menuBtn} src={menuOpen ? getImageUrl("nav/menuIcon.png") : getImageUrl("nav/menuIcon.png")} alt="menu-dash-button" width="40" onClick={() => setMenuOpen(!menuOpen)}></img>
                     {/* if the menu is open apply the corresponding style */}
                     <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
                         <li><a href="#about">About</a></li>
