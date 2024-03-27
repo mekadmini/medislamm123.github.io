@@ -3,7 +3,7 @@
         "id": 1,
         "title": "SPAM Classifier",
         "description": "based on the BERT language model for the lecture Advanced Analytics in Machine Learning.",
-        "imgSrc": "projects/compiler.png",
+        "imgSrc": "projects/spam_detector.png",
         "skills": [
             "python",
             "bert",
@@ -44,7 +44,7 @@
         "id": 4,
         "title": "Numerical analysis notes",
         "description": "Only available in german",
-        "imgSrc": "projects/compiler.png",
+        "imgSrc": "projects/numerik.png",
         "skills": [
             "markdown",
             "latex",
@@ -73,7 +73,7 @@
         "id": 6,
         "title": "Bechelor thesis",
         "description": "My topic is related to conformal prediction",
-        "imgSrc": "projects/portfolio.png",
+        "imgSrc": "projects/bachelor_thesis.png",
         "skills": [
             "python",
             "pandas",

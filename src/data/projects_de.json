@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Spam-Klassifikator",
         "description": "Basierend auf dem BERT-Sprachmodell für die Vorlesung Advanced Analytics in Machine Learning.",
-        "imgSrc": "projects/compiler.png",
+        "imgSrc": "projects/spam_detector.png",
         "skills": [
             "python",
             "bert",
@@ -44,7 +44,7 @@
         "id": 4,
         "title": "Numerik (Notizen)",
         "description": "Diese inoffizielle Webseite dient als Startpunkt für die Prüfungsvorbereitung in Numerik an der LMU München. Sie bietet eine geordnete Liste der wichtigsten Themen der Vorlesung sowie die wichtigsten Definitionen und Beispiele, um den Studierenden einen schnellen Überblick zu ermöglichen und ihre Vorbereitung zu erleichtern.",
-        "imgSrc": "projects/compiler.png",
+        "imgSrc": "projects/numerik.png",
         "skills": [
             "markdown",
             "latex",
@@ -73,7 +73,7 @@
         "id": 6,
         "title": "Bechelorarbeit",
         "description": "das Thema bezieht sich auf Conformal Prediction",
-        "imgSrc": "projects/portfolio.png",
+        "imgSrc": "projects/bachelor_thesis.png",
         "skills": [
             "python",
             "pandas",
