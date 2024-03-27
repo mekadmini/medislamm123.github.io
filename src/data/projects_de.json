@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Projekt 1 (Deutsch)",
+        "description": "Beschreibung für Projekt 1 auf Deutsch",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": ""
+    },
+    {
+        "id": 2,
+        "title": "Projekt 2 (Deutsch)",
+        "description": "Beschreibung für Projekt 2 auf Deutsch",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": ""
+    },
+    {
+        "id": 3,
+        "title": "Projekt 3 (Deutsch)",
+        "description": "Beschreibung für Projekt 3 auf Deutsch",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": ""
+    },
+    {
+        "id": 4,
+        "title": "Projekt 4 (Deutsch)",
+        "description": "Beschreibung für Projekt 4 auf Deutsch",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": ""
+    },
+    {
+        "id": 5,
+        "title": "Projekt 5 (Deutsch)",
+        "description": "Beschreibung für Projekt 5 auf Deutsch",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "SPAM Classifier",
+        "description": "based on the BERT language model for the lecture Advanced Analytics in Machine Learning.",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": "https://gitlab.com/medislamm123/aaml-project"
+    },
+    {
+        "id": 2,
+        "title": "ImProg 2L compiler",
+        "description": "a compiler for a Prolog-like programming language using Haskell for the software development practical",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": ""
+    },
+    {
+        "id": 3,
+        "title": "ParkMyLatex",
+        "description": "Description for Project 3 in English",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": "https://github.com/medislamm123/park-my-latex-server"
+    },
+    {
+        "id": 4,
+        "title": "Numerical analysis notes",
+        "description": "Only available in german",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": "https://mekadmini.tech/numerik"
+    },
+    {
+        "id": 5,
+        "title": "Project 5 (English)",
+        "description": "Description for Project 5 in English",
+        "imgSrc": "projects/compiler.png",
+        "skills": ["python"],
+        "source": ""
+    }
+]

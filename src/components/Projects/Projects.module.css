@@ -1,0 +1,55 @@
+@import "../../vars.css";
+
+.container {
+    margin-top: 76px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: var(--color-background);
+    border: 2px solid red;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700px;
+    letter-spacing: 1.75px;
+    border: 2px solid red;
+}
+
+.imgSrc {
+    border-radius: 20%;
+    border: 2px solid red;
+    align-items: center;
+}
+
+.projects {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.linkBtn {
+    text-decoration: none;
+    text-align: center;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 26px;
+    margin-top: 30px;
+    position: center;
+    width: 90px;
+
+}
