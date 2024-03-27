@@ -16,7 +16,7 @@
 }
 
 .imgSrc {
-    border-radius: 20%;
+    border-radius: 40%;
     /* border: 2px solid red; */
     align-items: center;
 }
@@ -30,7 +30,6 @@
     justify-content: flex-start;
     gap: 15px;
     width: 60%;
-    /* border: 2px solid red; */
 }
 
 .projectsContainer {
@@ -111,6 +110,12 @@ a[href=""] {
         justify-content: center;
         flex-direction: column;
         width: 100%;
+        border: 2px solid var(--color-primary);
+        background-color: var(--color-dark);
+        backdrop-filter: blur(10px);
+        background-image: linear-gradient(to bottom, rgba(244, 149, 222, 0.3), rgba(255, 255, 255, 0));
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        opacity: 0.8;
     }
 
     .title {
@@ -129,6 +134,10 @@ a[href=""] {
     .skills {
         justify-content: center;
         max-width: 300px;
+    }
+
+    .imgSrc {
+        margin-top: 20px;
     }
 
 
