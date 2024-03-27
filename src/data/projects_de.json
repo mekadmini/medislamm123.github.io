@@ -1,42 +1,47 @@
 [
     {
         "id": 1,
-        "title": "Projekt 1 (Deutsch)",
-        "description": "Beschreibung für Projekt 1 auf Deutsch",
+        "title": "Spam-Klassifikator",
+        "description": "Basierend auf dem BERT-Sprachmodell für die Vorlesung Advanced Analytics in Machine Learning.",
         "imgSrc": "projects/compiler.png",
         "skills": ["python"],
-        "source": ""
+        "link":"",
+        "source": "https://gitlab.com/medislamm123/aaml-project"
     },
     {
         "id": 2,
-        "title": "Projekt 2 (Deutsch)",
-        "description": "Beschreibung für Projekt 2 auf Deutsch",
+        "title": "ImProg 2L compiler",
+        "description": "Ein Compiler für eine prologähnliche Programmiersprache für das Softwareentwicklungspracktikum",
         "imgSrc": "projects/compiler.png",
-        "skills": ["python"],
+        "skills": ["haskell"],
+        "link":"",
         "source": ""
     },
     {
         "id": 3,
-        "title": "Projekt 3 (Deutsch)",
-        "description": "Beschreibung für Projekt 3 auf Deutsch",
+        "title": "ParkMyLatex",
+        "description": "",
         "imgSrc": "projects/compiler.png",
         "skills": ["python"],
-        "source": ""
+        "link":"https://parkmylatex.xn--i-zfa.at/",
+        "source": "https://github.com/medislamm123/park-my-latex-server"
     },
     {
         "id": 4,
-        "title": "Projekt 4 (Deutsch)",
-        "description": "Beschreibung für Projekt 4 auf Deutsch",
+        "title": "Numerik (Notizen)",
+        "description": "Diese inoffizielle Webseite dient als Startpunkt für die Prüfungsvorbereitung in Numerik an der LMU München. Sie bietet eine geordnete Liste der wichtigsten Themen der Vorlesung sowie die wichtigsten Definitionen und Beispiele, um den Studierenden einen schnellen Überblick zu ermöglichen und ihre Vorbereitung zu erleichtern.",
         "imgSrc": "projects/compiler.png",
-        "skills": ["python"],
+        "skills": ["markdown","latex"],
+        "link":"https://mekadmini.tech/numerik",
         "source": ""
     },
     {
         "id": 5,
-        "title": "Projekt 5 (Deutsch)",
-        "description": "Beschreibung für Projekt 5 auf Deutsch",
+        "title": "Meine Portfolio-Webseite",
+        "description": "diese Portfolio-Webseite :)",
         "imgSrc": "projects/compiler.png",
-        "skills": ["python"],
-        "source": ""
+        "skills": ["vite","react","html","css","javascript"],
+        "link":"https://mekadmini.tech",
+        "source": "https://github.com/medislamm123/medislamm123.github.io"
     }
 ]

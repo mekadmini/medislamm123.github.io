@@ -5,19 +5,19 @@
     margin-left: 2%;
     margin-right: 2%;
     background-color: var(--color-background);
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .title {
     font-size: 35px;
     font-weight: 700px;
     letter-spacing: 1.75px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .imgSrc {
     border-radius: 20%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
 }
 
@@ -25,18 +25,19 @@
     margin-top: 37px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: flex-start;
     gap: 15px;
-    width: 100%;
-    border: 2px solid red;
+    width: 60%;
+    /* border: 2px solid red; */
 }
 
 .projectsContainer {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
 }
 
 .linkBtn {
@@ -48,8 +49,87 @@
     font-size: 20px;
     font-weight: 600;
     padding: 16px 26px;
-    margin-top: 30px;
+    margin-top: 20px;
     position: center;
-    width: 90px;
+    width: 150px;
+
+
+}
+
+.skill {
+    max-width: fit-content;
+    list-style: none;
+    color: var(--color-text);
+    background-color: rgb(143, 51, 153);
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 20px;
+    position: center;
+    width: 150px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+
+.linksContainer {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+
+
+}
+
+a[href=""] {
+    background-color: gray;
+    pointer-events: none;
+    cursor: default;
+    display: none;
+}
+
+.projectDescription {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+}
+
+@media screen and (max-width:830px) {
+    .container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .projects {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .projectsContainer {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid green; */
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .skills {
+        justify-content: center;
+        max-width: 300px;
+    }
+
 
 }

@@ -31,15 +31,21 @@ export const Projects = ({ language }) => {
                             <img src={getImageUrl(project.imgSrc)} width="200" alt={`Image of ${project.title}`} className={styles.imgSrc}></img>
                             <div className={styles.projectsContainer}>
                                 <h3 >{project.title}</h3>
-                                <p>{project.description}</p>
-                                {project.skills.map((skill, id) => {
-                                    return (
-                                        <li key={id} className={styles.skill}>
-                                            {skill}
-                                        </li>
-                                    );
-                                })}
-                                <a href={project.source} className={styles.linkBtn}>{t('link')}</a>
+
+                                <p className={styles.projectDescription}>{project.description}</p>
+                                <div className={styles.skills}>
+                                    {project.skills.map((skill, id) => {
+                                        return (
+                                            <li key={id} className={styles.skill}>
+                                                {skill}
+                                            </li>
+                                        );
+                                    })}
+                                </div>
+                                <div className={styles.linksContainer}>
+                                    <a href={project.link} className={styles.linkBtn}>{t('link')}</a>
+                                    <a href={project.source} className={styles.linkBtn}>{t('source')}</a>
+                                </div>
                             </div>
                         </div>
                     );
