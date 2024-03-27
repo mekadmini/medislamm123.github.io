@@ -77,6 +77,15 @@
     .container {
         flex-direction: column-reverse;
 
+
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
     }
 
     .content {
