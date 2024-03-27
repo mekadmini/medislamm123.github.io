@@ -20,6 +20,21 @@
     z-index: 1;
 }
 
+.titleTyping {
+    font-size: 76px;
+    font-weight: 900;
+    background: linear-gradient(90deg, rgb(181, 14, 222) 70%, rgba(188, 31, 141, 0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation-name: typing;
+    overflow: hidden;
+    text-wrap: nowrap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
 .title {
     font-size: 76px;
     font-weight: 900;
@@ -43,6 +58,16 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     border-radius: 50%;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
 @keyframes floating {
@@ -81,6 +106,10 @@
     }
 
     .title {
+        text-align: center;
+    }
+
+    .titleTyping {
         text-align: center;
     }
 

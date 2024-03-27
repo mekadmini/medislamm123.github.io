@@ -8,7 +8,8 @@ export const Hero = () => {
     const { t } = useTranslation();
     return <section className={styles.container}>
         <div className={styles.content}>
-            <h1 className={styles.title}>{t('welcome')}</h1>
+            <h1 className={styles.titleTyping}>{t('hello')}</h1>
+            <h1 className={styles.title}>{t('i am mohamed')}</h1>
             <p className={styles.description}>{t('hero description')}</p>
             <a href="mailto:mohamedislamm@gmail.com" className={styles.contactBtn}>{t('contact me')}</a>
         </div>
