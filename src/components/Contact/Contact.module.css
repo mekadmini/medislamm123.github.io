@@ -38,7 +38,7 @@
 .link {
     display: flex;
     gap: 25px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .link a {
