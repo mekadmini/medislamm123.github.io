@@ -21,7 +21,7 @@
         "id": 3,
         "title": "ParkMyLatex",
         "description": "",
-        "imgSrc": "projects/compiler.png",
+        "imgSrc": "projects/parkmylatex.png",
         "skills": ["python"],
         "link":"https://parkmylatex.xn--i-zfa.at/",
         "source": "https://github.com/medislamm123/park-my-latex-server"
@@ -39,7 +39,7 @@
         "id": 5,
         "title": "My Portfolio website",
         "description": "this portfolio website:)",
-        "imgSrc": "projects/compiler.png",
+        "imgSrc": "projects/portfolio.png",
         "skills": ["vite","react","html","css","javascript"],
         "link":"https://mekadmini.tech",
         "source": "https://github.com/medislamm123/medislamm123.github.io"
