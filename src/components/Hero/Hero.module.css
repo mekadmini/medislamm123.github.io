@@ -21,7 +21,7 @@
 }
 
 .titleTyping {
-    font-size: 76px;
+    font-size: 60px;
     font-weight: 900;
     background: linear-gradient(90deg, rgb(181, 14, 222) 70%, rgba(188, 31, 141, 0) 120%);
     -webkit-text-fill-color: transparent;
