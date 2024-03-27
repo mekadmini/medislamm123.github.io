@@ -6,6 +6,7 @@
         "year": "(10/2021 - heute)",
         "description": "Tutor für die Vorlesung Einführung in die Programmierung.",
         "imgSrc": "experience/lmu_logo.jpeg",
+        "link":"https://www.lmu.de/de/index.html",
         "skills": [
             "python",
             "bert",
@@ -18,6 +19,7 @@
         "id": 2,
         "title": "Tutor/Studentische Hilfskraft",
         "institute": "Ludwig-Maximilians-Universität",
+        "link":"https://www.lmu.de/de/index.html",
         "year": "(04/2022 - 08/2023)",
         "description": "Tutor für die Vorlesung Programmierung und Modellierung.",
         "imgSrc": "experience/lmu_logo.jpeg",
@@ -33,6 +35,7 @@
         "id": 3,
         "title": "Tutor/Studentische Hilfskraft",
         "institute": "Ludwig-Maximilians-Universität",
+        "link":"https://www.lmu.de/de/index.html",
         "year": "(10/2023 - 02/2024)",
         "description": "Tutor für das Softwareentwicklungspraktikum für Nebenfächler.",
         "imgSrc": "experience/lmu_logo.jpeg",

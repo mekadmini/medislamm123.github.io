@@ -28,7 +28,7 @@ export const Experience = ({ language }) => {
                 {experience.map((myExperience, id) => {
                     return (
                         <div id={id} className={styles.timelineItem}>
-                            <img src={getImageUrl(myExperience.imgSrc)} className = {styles.imgSrc} width="100"></img>
+                            <a href={myExperience.link}><img src={getImageUrl(myExperience.imgSrc)} className={styles.imgSrc} width="100"></img></a>
                             <div className={styles.timelineContent}>
                                 <h3>{myExperience.title}</h3>
                                 <h4>{myExperience.institute}</h4>
