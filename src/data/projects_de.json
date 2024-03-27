@@ -4,8 +4,14 @@
         "title": "Spam-Klassifikator",
         "description": "Basierend auf dem BERT-Sprachmodell für die Vorlesung Advanced Analytics in Machine Learning.",
         "imgSrc": "projects/compiler.png",
-        "skills": ["python"],
-        "link":"",
+        "skills": [
+            "python",
+            "bert",
+            "keras",
+            "pandas",
+            "git"
+        ],
+        "link": "",
         "source": "https://gitlab.com/medislamm123/aaml-project"
     },
     {
@@ -13,8 +19,11 @@
         "title": "ImProg 2L compiler",
         "description": "Ein Compiler für eine prologähnliche Programmiersprache für das Softwareentwicklungspracktikum",
         "imgSrc": "projects/compiler.png",
-        "skills": ["haskell"],
-        "link":"",
+        "skills": [
+            "haskell",
+            "git"
+        ],
+        "link": "",
         "source": ""
     },
     {
@@ -22,8 +31,13 @@
         "title": "ParkMyLatex",
         "description": "",
         "imgSrc": "projects/parkmylatex.png",
-        "skills": ["python"],
-        "link":"https://parkmylatex.xn--i-zfa.at/",
+        "skills": [
+            "python",
+            "django",
+            "gpt-api",
+            "git"
+        ],
+        "link": "https://parkmylatex.xn--i-zfa.at/",
         "source": "https://github.com/medislamm123/park-my-latex-server"
     },
     {
@@ -31,8 +45,12 @@
         "title": "Numerik (Notizen)",
         "description": "Diese inoffizielle Webseite dient als Startpunkt für die Prüfungsvorbereitung in Numerik an der LMU München. Sie bietet eine geordnete Liste der wichtigsten Themen der Vorlesung sowie die wichtigsten Definitionen und Beispiele, um den Studierenden einen schnellen Überblick zu ermöglichen und ihre Vorbereitung zu erleichtern.",
         "imgSrc": "projects/compiler.png",
-        "skills": ["markdown","latex"],
-        "link":"https://mekadmini.tech/numerik",
+        "skills": [
+            "markdown",
+            "latex",
+            "git"
+        ],
+        "link": "https://mekadmini.tech/numerik",
         "source": ""
     },
     {
@@ -40,8 +58,30 @@
         "title": "Meine Portfolio-Webseite",
         "description": "diese Portfolio-Webseite :)",
         "imgSrc": "projects/portfolio.png",
-        "skills": ["vite","react","html","css","javascript"],
-        "link":"https://mekadmini.tech",
+        "skills": [
+            "vite",
+            "react",
+            "html",
+            "css",
+            "javascript",
+            "git"
+        ],
+        "link": "https://mekadmini.tech",
         "source": "https://github.com/medislamm123/medislamm123.github.io"
+    },
+    {
+        "id": 6,
+        "title": "Bechelorarbeit",
+        "description": "das Thema bezieht sich auf Conformal Prediction",
+        "imgSrc": "projects/portfolio.png",
+        "skills": [
+            "python",
+            "pandas",
+            "numpy",
+            "matplotlib",
+            "git"
+        ],
+        "link": "",
+        "source": ""
     }
 ]

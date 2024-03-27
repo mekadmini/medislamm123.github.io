@@ -4,8 +4,14 @@
         "title": "SPAM Classifier",
         "description": "based on the BERT language model for the lecture Advanced Analytics in Machine Learning.",
         "imgSrc": "projects/compiler.png",
-        "skills": ["python"],
-        "link":"",
+        "skills": [
+            "python",
+            "bert",
+            "keras",
+            "pandas",
+            "git"
+        ],
+        "link": "",
         "source": "https://gitlab.com/medislamm123/aaml-project"
     },
     {
@@ -13,8 +19,11 @@
         "title": "ImProg 2L compiler",
         "description": "a compiler for a Prolog-like programming language using Haskell for the software development practical",
         "imgSrc": "projects/compiler.png",
-        "skills": ["haskell"],
-        "link":"",
+        "skills": [
+            "haskell",
+            "git"
+        ],
+        "link": "",
         "source": ""
     },
     {
@@ -22,8 +31,13 @@
         "title": "ParkMyLatex",
         "description": "",
         "imgSrc": "projects/parkmylatex.png",
-        "skills": ["python"],
-        "link":"https://parkmylatex.xn--i-zfa.at/",
+        "skills": [
+            "python",
+            "django",
+            "gpt-api",
+            "git"
+        ],
+        "link": "https://parkmylatex.xn--i-zfa.at/",
         "source": "https://github.com/medislamm123/park-my-latex-server"
     },
     {
@@ -31,8 +45,12 @@
         "title": "Numerical analysis notes",
         "description": "Only available in german",
         "imgSrc": "projects/compiler.png",
-        "skills": ["markdown","latex"],
-        "link":"https://mekadmini.tech/numerik",
+        "skills": [
+            "markdown",
+            "latex",
+            "git"
+        ],
+        "link": "https://mekadmini.tech/numerik",
         "source": ""
     },
     {
@@ -40,8 +58,30 @@
         "title": "My Portfolio website",
         "description": "this portfolio website:)",
         "imgSrc": "projects/portfolio.png",
-        "skills": ["vite","react","html","css","javascript"],
-        "link":"https://mekadmini.tech",
+        "skills": [
+            "vite",
+            "react",
+            "html",
+            "css",
+            "javascript",
+            "git"
+        ],
+        "link": "https://mekadmini.tech",
         "source": "https://github.com/medislamm123/medislamm123.github.io"
+    },
+    {
+        "id": 6,
+        "title": "Bechelor thesis",
+        "description": "My topic is related to conformal prediction",
+        "imgSrc": "projects/portfolio.png",
+        "skills": [
+            "python",
+            "pandas",
+            "numpy",
+            "matplotlib",
+            "git"
+        ],
+        "link": "",
+        "source": ""
     }
 ]
