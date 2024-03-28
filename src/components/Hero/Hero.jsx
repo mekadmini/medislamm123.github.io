@@ -11,7 +11,7 @@ export const Hero = () => {
             <h1 className={styles.titleTyping}>{t('hello')}</h1>
             <h1 className={styles.title}>{t('i am mohamed')}</h1>
             <p className={styles.description}>{t('hero description')}</p>
-            <a href="mailto:mohamedislamm@gmail.com" className={styles.contactBtn}>{t('contact me')}</a>
+            <a href="/#contact" className={styles.contactBtn}>{t('contact me')}</a>
         </div>
         <img src={getImageUrl("hero/mohamed.jpg")} alt="image of me" className={styles.heroImg}></img>
     </section>;
