@@ -13,16 +13,16 @@ export const Contact = () => {
         <ul className={styles.links}>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/linkedin.png")} width="70"></img>
-                <a href="https://www.linkedin.com/in/mohamed-mekadmini/">in/mohamed-mekadmini</a>
+                <a href="https://www.linkedin.com/in/mekadmini/">in/mekadmini</a>
 
             </li>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/github-white.png")} width="70"></img>
-                <a href="https://github.com/medislamm123">@medislamm123</a>
+                <a href="https://github.com/mekadmini">@mekadmini</a>
             </li>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/gitlab.png")} width="70"></img>
-                <a href="https://gitlab.com/medislamm123">@medislamm123</a>
+                <a href="https://gitlab.com/mekadmini">@mekadmini</a>
             </li>
         </ul>
     </footer>);
